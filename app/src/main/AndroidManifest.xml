@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deer.boochat" >
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_boochat"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme"
+        android:largeHeap="true">
+
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".CheckFirst"
+            android:screenOrientation="portrait"
+            android:label="f">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="Boochat">
+        </activity>
+
+        <activity android:name=".advertise.AddFriendsActivity">
+        </activity>
+        <activity android:name=".advertise.FindFriendsActivity"
+                 android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:name=".chat_room.BluetoothChatActivity">
+        </activity>
+
+        <service android:name=".service.AdvertiserService"
+                 android:enabled="true"/>
+        <service android:name=".service.ScannerService"
+            android:enabled="true"/>
+        <service android:name=".service.BluetoothLeService"
+            android:enabled="true"/>
+    </application>
+
+</manifest>

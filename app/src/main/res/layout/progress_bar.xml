@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56fdfbff"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:gravity="center"
+    android:clickable="false"
+    android:baselineAligned="false">
+    <ProgressBar
+        style="@style/animStyle"
+        android:layout_width="50dp"
+        android:layout_height="77dp"
+        android:id="@+id/progressBar"
+        android:indeterminate="false"
+        android:layout_gravity="center" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addfriend_prograss"
+        android:layout_gravity="center"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:max="100"
+        android:indeterminate="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在廣播您的裝置 請稍候"
+        android:id="@+id/state"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColor" />
+</LinearLayout>

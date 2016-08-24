@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="130" android:drawable="@drawable/blexs1" />
+    <item android:duration="130" android:drawable="@drawable/blexs2" />
+    <item android:duration="130" android:drawable="@drawable/blexs3" />
+    <item android:duration="130" android:drawable="@drawable/blexs4" />
+    <item android:duration="130" android:drawable="@drawable/blexs5" />
+    <item android:duration="130" android:drawable="@drawable/blexs6" />
+    <item android:duration="130" android:drawable="@drawable/blexs7" />
+    <item android:duration="130" android:drawable="@drawable/blexs8" />
+    <item android:duration="130" android:drawable="@drawable/blexs9" />
+    <item android:duration="130" android:drawable="@drawable/blexs10" />
+    <item android:duration="130" android:drawable="@drawable/blexs9" />
+    <item android:duration="130" android:drawable="@drawable/blexs8" />
+    <item android:duration="130" android:drawable="@drawable/blexs7" />
+    <item android:duration="130" android:drawable="@drawable/blexs6" />
+    <item android:duration="130" android:drawable="@drawable/blexs5" />
+    <item android:duration="130" android:drawable="@drawable/blexs4" />
+    <item android:duration="130" android:drawable="@drawable/blexs3" />
+    <item android:duration="130" android:drawable="@drawable/blexs2" />
+</animation-list>

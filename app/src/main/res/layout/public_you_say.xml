@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/your_color"
+            android:layout_gravity="right"
+            android:src="@drawable/circle"
+            android:layout_margin="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="red"
+            android:id="@+id/your_name"
+            android:singleLine="false"
+            android:textColor="#a6e4f3"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="3dp"
+            android:shadowColor="#285277"
+            android:shadowRadius="4"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="滿腦子都是你小小的身影，蹭著撒嬌的時候，在筆電上頭胡亂的時後，睡覺總要窩在腳邊的時候……，那麼多的你卻因意外離開了我，我親愛的貓小孩，多希望下次你也能回到我身邊……。"
+        android:id="@+id/c_s"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/cmesc6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="time/h/m/s"
+        android:id="@+id/c_time"
+        android:layout_gravity="center"
+        android:singleLine="false"
+        android:textColor="@color/tabsScroll"
+        android:shadowColor="#FF270877"
+        android:shadowRadius="3"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>

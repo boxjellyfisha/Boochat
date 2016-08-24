@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="130" android:drawable="@drawable/blexs10" />
+    <item android:duration="130" android:drawable="@drawable/blexs11" />
+    <item android:duration="130" android:drawable="@drawable/blexs12" />
+    <item android:duration="130" android:drawable="@drawable/blexs13" />
+    <item android:duration="130" android:drawable="@drawable/blexs14" />
+    <item android:duration="130" android:drawable="@drawable/blexs15" />
+    <item android:duration="130" android:drawable="@drawable/blexs16" />
+    <item android:duration="130" android:drawable="@drawable/blexs17" />
+    <item android:duration="130" android:drawable="@drawable/blexs18" />
+    <item android:duration="130" android:drawable="@drawable/blexs19" />
+    <item android:duration="130" android:drawable="@drawable/blexs20" />
+    <item android:duration="130" android:drawable="@drawable/blexs19" />
+    <item android:duration="130" android:drawable="@drawable/blexs18" />
+    <item android:duration="130" android:drawable="@drawable/blexs17" />
+    <item android:duration="130" android:drawable="@drawable/blexs16" />
+    <item android:duration="130" android:drawable="@drawable/blexs15" />
+    <item android:duration="130" android:drawable="@drawable/blexs14" />
+    <item android:duration="130" android:drawable="@drawable/blexs13" />
+    <item android:duration="130" android:drawable="@drawable/blexs12" />
+    <item android:duration="130" android:drawable="@drawable/blexs11" />
+</animation-list>

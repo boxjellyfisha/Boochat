@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fadeScrollbars="true"
+        android:fadingEdge="vertical"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:textColor="#ef1b043f"
+        android:background="@drawable/blue_1"
+        android:divider="@null" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sticker"
+            android:background="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+            android:textColor="#b2baff"
+            android:backgroundTint="#aecb94ff"
+            android:clickable="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edit_text_out"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ff4d1963"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:hint="Talk about something..."
+            android:layout_marginBottom="1dp" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

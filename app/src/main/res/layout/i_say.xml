@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="time/m/d/s"
+        android:id="@+id/c_time"
+        android:layout_gravity="center"
+        android:shadowColor="#FF270877"
+        android:shadowRadius="3"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textColor="@color/tabsScroll"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="掰掰 下次再聊吧~"
+        android:id="@+id/c_s"
+        android:layout_gravity="right"
+        android:background="@drawable/chatme"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sticker"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    android:nestedScrollingEnabled="true"
+    android:gravity="left">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/test_icon"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Stikers"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:paddingStart="5dp"
+            android:password="false"
+            android:textSize="20dp"
+            android:textIsSelectable="false"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:id="@+id/gridView"
+        android:columnWidth="50dp"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="3"
+        android:layout_gravity="center"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

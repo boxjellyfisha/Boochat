@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+    </style>
+
+    <style name="AnimationPopup">
+        <item name="@android:windowEnterAnimation">@anim/appear</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <style name="animStyle" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@anim/ble_gif</item>
+    </style>
+
+    <style name="circle">
+        <item name="android:shape">@drawable/circle</item>
+    </style>
+</resources>
