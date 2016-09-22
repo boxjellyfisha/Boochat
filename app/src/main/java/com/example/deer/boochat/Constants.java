@@ -16,7 +16,8 @@ public class Constants {
      *
      */
     public static final ParcelUuid Service_UUID = ParcelUuid
-            .fromString("00001800-0000-1000-8000-00805f9b34fb");
+            .fromString("b4538788-e00b-4342-b815-471d4bf1ca73");
+    //00001800-0000-1000-8000-00805f9b34fb
     public static final ParcelUuid Chat_Service_UUID = ParcelUuid
             .fromString("2bc2eba8-5942-11e5-885d-feff819cdc9f");
 

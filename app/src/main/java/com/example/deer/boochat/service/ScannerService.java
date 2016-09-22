@@ -167,7 +167,7 @@ public class ScannerService extends Service {
     public void startScanning() {
         if (mScanCallback == null) {
             mScanCallback = new SampleScanCallback();
-            mBluetoothLeScanner.startScan(null, buildScanSettings(), mScanCallback);
+            mBluetoothLeScanner.startScan(buildScanFilters(), buildScanSettings(), mScanCallback);
             showToast("is Scanning");
         } else {
             showToast(getString(R.string.already_scanning));

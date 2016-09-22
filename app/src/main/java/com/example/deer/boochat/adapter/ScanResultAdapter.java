@@ -4,6 +4,7 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.le.ScanRecord;
 import android.bluetooth.le.ScanResult;
 import android.content.Context;
+import android.os.Parcel;
 import android.os.ParcelUuid;
 import android.os.SystemClock;
 import android.view.LayoutInflater;
@@ -213,6 +214,21 @@ public class ScanResultAdapter extends BaseAdapter {
         return flag;
     }
 
+    //識別android封包 暫設
+    public boolean adkChecking(ScanResult scanResult)
+    {
+
+        ParcelUuid tmp=scanResult.getScanRecord().getServiceUuids().get(0);
+        if(!tmp.equals(Constants.Service_UUID))
+        {
+            return false;
+        }
+        else{
+            if(scanResult.getScanRecord().getServiceData()!=null && scanResult.getScanRecord().getManufacturerSpecificData()!=null)
+                return true;
+        }
+        return false;
+    }
     public int iOSChecking(ScanResult scanResult)
     {
         ParcelUuid tmp=scanResult.getScanRecord().getServiceUuids().get(0);
